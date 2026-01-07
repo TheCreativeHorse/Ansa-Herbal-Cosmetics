@@ -79,6 +79,20 @@ const Products = () => {
                                     ))}
                                 </div>
                             </div>
+
+                            {product.usage && (
+                                <div className="product-usage">
+                                    <h4>How to Use</h4>
+                                    <p>{product.usage}</p>
+                                </div>
+                            )}
+
+                            {product.storage && (
+                                <div className="product-storage">
+                                    <h4>Storage</h4>
+                                    <p>{product.storage}</p>
+                                </div>
+                            )}
                         </div>
                     </div>
                 ))}

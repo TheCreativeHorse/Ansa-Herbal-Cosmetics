@@ -198,10 +198,18 @@
     max-width: 90%;
 }
 
-.ingredients-section h4 {
+.ingredients-section h4,
+.product-usage h4,
+.product-storage h4 {
     font-size: 1rem;
     margin-bottom: 1rem;
     color: var(--color-charcoal);
+    font-weight: 600;
+}
+
+.product-usage,
+.product-storage {
+    margin-top: 2rem;
 }
 
 .ingredients-tags {

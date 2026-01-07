@@ -4,6 +4,33 @@ import aboutImage from '../assets/images/about-story.png';
 import './About.css';
 
 const About = () => {
+    const testimonials = [
+        {
+            id: 1,
+            product: "Ansa Face Cleanser",
+            text: "Have been using this cleanser for quite some time now and it has shown great results especially diminishing sun burn, brightening face and gives a nice glow on the skin. It is good for all skin types. Definitely recommend this for all",
+            author: "Fatema"
+        },
+        {
+            id: 2,
+            product: "ANSA Night Cream",
+            text: "I wake up with soft, refreshed, healthy-looking skin. ❤️",
+            author: "Maria"
+        },
+        {
+            id: 3,
+            product: "ANSA Day Cream",
+            text: "Makes my skin feel awake and refreshed every morning.",
+            author: "Tasneem"
+        },
+        {
+            id: 4,
+            product: "Ansa Herbal Shampoo",
+            text: "I absolutely loved this herbal shampoo. It really helped reduce my hair fall, and my hair feels so silky, smooth, and shiny after every wash. The fact that it’s chemical-free is a huge plus for me. I’m very happy with the results and would definitely recommend it to others.",
+            author: "Zainab"
+        }
+    ];
+
     return (
         <div className="about-page">
             <div className="about-header section">
@@ -68,6 +95,28 @@ const About = () => {
                             <h4>Respect</h4>
                             <p>Respect for your skin's natural balance and the planet we all share.</p>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="section testimonials-section">
+                <div className="container">
+                    <div className="text-center mb-4">
+                        <h2 className="section-title">What People Say</h2>
+                        <p className="section-desc">Stories from our community about their journey with Ansa.</p>
+                    </div>
+
+                    <div className="testimonials-grid">
+                        {testimonials.map((t, index) => (
+                            <div key={t.id} className="testimonial-card fade-in-up" style={{ animationDelay: `${0.1 + (index * 0.1)}s` }}>
+                                <div className="quote-icon">❝</div>
+                                <p className="testimonial-text">{t.text}</p>
+                                <div className="testimonial-footer">
+                                    <span className="testimonial-author">- {t.author}</span>
+                                    <span className="testimonial-product">{t.product}</span>
+                                </div>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>
