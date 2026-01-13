@@ -28,7 +28,7 @@ export const products = [
     {
         id: 1,
         name: 'Ansa Herbal Moisturizer',
-        description: 'A gentle, nourishing moisturizer created to hydrate and soften the skin without feeling heavy. Blends natural oils and botanicals.',
+        description: 'A gentle, nourishing moisturizer created to hydrate and soften the skin without feeling heavy. Blends natural oils and botanicals. All creams are gentle and suitable for use on the entire body.',
         ingredients: ['Almond oil', 'Rose water', 'Glycerine'],
         storage: 'Store in a cool dry place and handle with care',
         images: [moisturizer1, moisturizer2, moisturizer3],
@@ -54,7 +54,7 @@ export const products = [
     {
         id: 4,
         name: 'Anti Wrinkle Night Cream',
-        description: 'A nourishing night cream designed to support skin renewal while you rest.',
+        description: 'A nourishing night cream designed to support skin renewal while you rest. All creams are gentle and suitable for use on the entire body.',
         ingredients: ['Almond oil', 'Green tea', 'Rose water'],
         storage: 'Store in a cool dry place and handle with care',
         images: [nightCream1, nightCream2],
@@ -71,7 +71,7 @@ export const products = [
     {
         id: 6,
         name: 'Ansa Age Reversal Night Cream',
-        description: 'A regenerative night cream formulated with orange and rosehip oils to rejuvenate and repair skin overnight.',
+        description: 'A regenerative night cream formulated with orange and rosehip oils to rejuvenate and repair skin overnight. All creams are gentle and suitable for use on the entire body.',
         ingredients: ['Orange oil', 'Rosehip oil', 'Rose water'],
         storage: 'Store in a cool dry place and handle with care',
         images: [ageReversalCream1, ageReversalCream2],
