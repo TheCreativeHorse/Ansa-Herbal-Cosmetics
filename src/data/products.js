@@ -37,7 +37,7 @@ export const products = [
     {
         id: 2,
         name: 'Ansa Herbal Sunscreen',
-        description: 'A naturally inspired sunscreen formulated to help protect and soothe the skin during daily sun exposure.',
+        description: 'A naturally inspired sunscreen formulated to help protect and soothe the skin during daily sun exposure. All creams are gentle and suitable for use on the entire body.',
         ingredients: ['Aloe vera gel', 'Carrot oil', 'Castor oil'],
         images: [sunscreen1, sunscreen2],
         category: 'Protection'
