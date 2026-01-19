@@ -8,10 +8,10 @@ const WhatsAppWidget = () => {
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (
-    <a 
-      href={whatsappUrl} 
-      className="whatsapp-float" 
-      target="_blank" 
+    <a
+      href={whatsappUrl}
+      className="whatsapp-float"
+      target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat with us on WhatsApp"
     >

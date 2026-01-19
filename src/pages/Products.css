@@ -190,6 +190,12 @@
     line-height: 1.2;
 }
 
+.product-price-new {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(111, 143, 122, 0.1);
+}
+
 .product-description {
     font-size: 1.1rem;
     color: var(--color-text-light);
@@ -200,7 +206,8 @@
 
 .ingredients-section h4,
 .product-usage h4,
-.product-storage h4 {
+.product-storage h4,
+.product-price-new h4 {
     font-size: 1rem;
     margin-bottom: 1rem;
     color: var(--color-charcoal);

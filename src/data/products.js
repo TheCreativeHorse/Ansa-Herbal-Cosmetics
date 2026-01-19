@@ -24,6 +24,7 @@ import ageReversalOil2 from '../assets/products/age-reversal-oil-2.png';
 import herbalShampoo1 from '../assets/products/herbal-shampoo-1.png';
 import herbalShampoo2 from '../assets/products/herbal-shampoo-2.png';
 
+
 export const products = [
     {
         id: 1,
@@ -32,6 +33,7 @@ export const products = [
         ingredients: ['Almond oil', 'Rose water', 'Glycerine'],
         storage: 'Store in a cool dry place and handle with care',
         images: [moisturizer1, moisturizer2, moisturizer3],
+        price: '25',
         category: 'Skincare'
     },
     {
@@ -40,6 +42,7 @@ export const products = [
         description: 'A naturally inspired sunscreen formulated to help protect and soothe the skin during daily sun exposure. All creams are gentle and suitable for use on the entire body.',
         ingredients: ['Aloe vera gel', 'Carrot oil', 'Castor oil'],
         images: [sunscreen1, sunscreen2],
+        price: '25',
         category: 'Protection'
     },
     {
@@ -49,6 +52,7 @@ export const products = [
         ingredients: ['Sandal', 'Neem', 'Wild turmeric'],
         usage: 'Take half a spoon in your palm and soak with rose water or regular water and apply',
         images: [faceWash1, faceWash2],
+        price: '25',
         category: 'Cleanser'
     },
     {
@@ -58,6 +62,7 @@ export const products = [
         ingredients: ['Almond oil', 'Green tea', 'Rose water'],
         storage: 'Store in a cool dry place and handle with care',
         images: [nightCream1, nightCream2],
+        price: '25',
         category: 'Night Care'
     },
     {
@@ -66,6 +71,7 @@ export const products = [
         description: 'A gentle, chemical-free deodorant created to keep you feeling fresh throughout the day.',
         ingredients: ['Coconut oil', 'Shea butter', 'Arrowroot', 'No baking soda'],
         images: [deodorant1, deodorant2],
+        price: '8',
         category: 'Body Care'
     },
     {
@@ -75,6 +81,7 @@ export const products = [
         ingredients: ['Orange oil', 'Rosehip oil', 'Rose water'],
         storage: 'Store in a cool dry place and handle with care',
         images: [ageReversalCream1, ageReversalCream2],
+        price: '25',
         category: 'Night Care'
     },
     {
@@ -84,6 +91,7 @@ export const products = [
         ingredients: ['Almond oil', 'Rosemary oil', 'Blend of 11 essential oils'],
         usage: 'Take few drops in your palm and rub then apply on your face and neck',
         images: [ageReversalOil1, ageReversalOil2],
+        price: '15',
         category: 'Face Care'
     },
     {
@@ -93,6 +101,7 @@ export const products = [
         ingredients: ['Amala', 'Shikakai', 'Reetha', 'Flax seed', 'Fenu Greek', 'Neem'],
         // User descriptive text merged into description? Not explicitly requested, but kept description consistent.
         images: [herbalShampoo1, herbalShampoo2],
+        price: '20',
         category: 'Hair Care'
     }
 ];

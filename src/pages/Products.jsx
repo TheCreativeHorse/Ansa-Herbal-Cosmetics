@@ -93,6 +93,12 @@ const Products = () => {
                                     <p>{product.storage}</p>
                                 </div>
                             )}
+
+                            {product.price && (
+                                <div className="product-price-new">
+                                    <h4>Price - ${product.price}</h4>
+                                </div>
+                            )}
                         </div>
                     </div>
                 ))}
