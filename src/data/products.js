@@ -24,6 +24,9 @@ import ageReversalOil2 from '../assets/products/age-reversal-oil-2.png';
 import herbalShampoo1 from '../assets/products/herbal-shampoo-1.png';
 import herbalShampoo2 from '../assets/products/herbal-shampoo-2.png';
 
+import dayCream1 from '../assets/products/day-cream-1.png';
+import dayCream2 from '../assets/products/day-cream-2.png';
+
 
 export const products = [
     {
@@ -103,5 +106,15 @@ export const products = [
         images: [herbalShampoo1, herbalShampoo2],
         price: '20',
         category: 'Hair Care'
+    },
+    {
+        id: 9,
+        name: 'Ansa Day Cream',
+        description: 'A lightweight, nourishing day cream made with aloe vera, shea butter, and frankincense oil to keep skin hydrated, calm, and naturally radiant throughout the day. Absorbs smoothly without feeling heavy, leaving your skin soft, balanced, and refreshed. Suitable for daily use.',
+        ingredients: ['Aloe Vera', 'Shea Butter', 'Frankincense Oil'],
+        storage: 'Store in a cool dry place & handle with care',
+        images: [dayCream1, dayCream2],
+        price: '25',
+        category: 'Skincare'
     }
 ];
