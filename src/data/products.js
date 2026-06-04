@@ -43,7 +43,7 @@ export const products = [
         id: 2,
         name: 'Ansa Herbal Sunscreen',
         description: 'A naturally inspired sunscreen formulated to help protect and soothe the skin during daily sun exposure. All creams are gentle and suitable for use on the entire body.',
-        ingredients: ['Aloe vera gel', 'Carrot oil', 'Castor oil'],
+        ingredients: ['Carrot oil', 'Castor oil'],
         images: [sunscreen1, sunscreen2],
         price: '25',
         category: 'Protection'
@@ -110,8 +110,8 @@ export const products = [
     {
         id: 9,
         name: 'Ansa Day Cream',
-        description: 'A lightweight, nourishing day cream made with aloe vera, shea butter, and frankincense oil to keep skin hydrated, calm, and naturally radiant throughout the day. Absorbs smoothly without feeling heavy, leaving your skin soft, balanced, and refreshed. Suitable for daily use.',
-        ingredients: ['Aloe Vera', 'Shea Butter', 'Frankincense Oil'],
+        description: 'A lightweight, nourishing day cream made with shea butter and frankincense oil to keep skin hydrated, calm, and naturally radiant throughout the day. Absorbs smoothly without feeling heavy, leaving your skin soft, balanced, and refreshed. Suitable for daily use.',
+        ingredients: ['Shea Butter', 'Frankincense Oil'],
         storage: 'Store in a cool dry place & handle with care',
         images: [dayCream1, dayCream2],
         price: '25',
