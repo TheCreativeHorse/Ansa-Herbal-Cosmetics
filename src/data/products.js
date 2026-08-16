@@ -14,6 +14,7 @@ import nightCream2 from '../assets/products/night-cream-2.png';
 
 import deodorant1 from '../assets/products/deodorant-1.png';
 import deodorant2 from '../assets/products/deodorant-2.png';
+import deodorant3 from '../assets/products/deodorant-3.png';
 
 import ageReversalCream1 from '../assets/products/age-reversal-cream-1.png';
 import ageReversalCream2 from '../assets/products/age-reversal-cream-2.png';
@@ -73,7 +74,7 @@ export const products = [
         name: 'Ansa Herbal Deodorant',
         description: 'A gentle, chemical-free deodorant created to keep you feeling fresh throughout the day.',
         ingredients: ['Coconut oil', 'Shea butter', 'Arrowroot', 'No baking soda'],
-        images: [deodorant1, deodorant2],
+        images: [deodorant3, deodorant1, deodorant2],
         price: '8',
         category: 'Body Care'
     },
